@@ -21,7 +21,7 @@ public class Node {
 
 
     public int remove(){
-        System.out.println("gfgghjfhg");
+        System.out.println("gfggkhjkhjfhg");
         return 0;
     }
 
