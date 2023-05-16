@@ -19,8 +19,9 @@ public class Node {
         return a;
     }
 
-    public int remove(){
 
+    public int remove(){
+        System.out.println("gfhjfhg");
         return 0;
     }
 
