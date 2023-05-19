@@ -11,10 +11,11 @@ public class PrintDigits {
         int num = sc.nextInt();
 
         ArrayList <Integer> digitsList = new ArrayList<>();
-         while(num>0){
-            int unitdigit = num % 10;
-            digitsList.add(0,unitdigit);
-            num = num/10;
+
+        while(num >0){  // 525 >0 , 52 >0 , 0.2>0
+            int digit = num%10; //525%10 = 5 , 52%10 = 2, 5%10 = 5
+            digitsList.add(0,digit); // (0,5) , (1,2) , (2,5)
+            num = num/10;  // 525/10 , 52/10, 5/10
         }
         System.out.println("The digits of the given number : ");
             for(int digit : digitsList){

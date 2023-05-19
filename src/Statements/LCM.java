@@ -3,7 +3,7 @@ package Statements;
 public class LCM {
     public static void main(String[]args){
         int a = 5;
-        int b = 40;
+        int b = 7;
         int lcm = (a>b) ? a:b;
 
         while(true){

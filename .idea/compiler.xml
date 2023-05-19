@@ -2,7 +2,7 @@
 <project version="4">
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Java" options="--add-exports java.xml/com.sun.org.apache.xml.internal.serializer=ALL-UNNAMED" />
+      <module name="Java" options="--add-exports java.xml/com.sun.org.apache.xml.internal.serializer=ALL-UNNAMED --add-exports java.base/jdk.internal.icu.impl=ALL-UNNAMED" />
     </option>
   </component>
 </project>

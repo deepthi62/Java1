@@ -19,21 +19,13 @@ public class Node {
         return a;
     }
 
-
-    public int remove(){
-        System.out.println("hello");
-        return 0;
-    }
-
     public void display() {
         Node temp = head;
         while (temp != null) {
             System.out.println(temp.data);
             temp = temp.nextNode;
         }
-
     }
-
     public static void main(String[] args) {
         MyList list = new MyList();
         list.add(10);
