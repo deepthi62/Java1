@@ -1,6 +1,5 @@
-package FunctionObjOrientedProg;
+package Java8;
 import java.util.function.BiFunction;
-import java.util.function.Function;
 
 public class FunctionTest3 {
 

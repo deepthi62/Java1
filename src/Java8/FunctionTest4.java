@@ -1,4 +1,4 @@
-package FunctionObjOrientedProg;
+package Java8;
 
 import java.util.function.Function;
 
