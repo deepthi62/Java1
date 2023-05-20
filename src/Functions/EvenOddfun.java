@@ -7,9 +7,7 @@ public class EvenOddfun {
     }
 
     public static void main(String[]args){
-        boolean r = isEven(4);
+        boolean r = isEven(2);
         System.out.println(r);
     }
-
-
 }

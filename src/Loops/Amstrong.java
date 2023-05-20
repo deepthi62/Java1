@@ -20,7 +20,7 @@ public class Amstrong {
 //        else
 //            System.out.println("not armstrong number");
 //
-        int number , originalNumber=371,remainder,result=0;
+        int number , originalNumber=153,remainder,result=0;
         number = originalNumber;
         while(number!=0){
             remainder = number%10;

@@ -11,8 +11,8 @@ public class ReverseGivenNum {
         int n = sc.nextInt();
 
 
-//        int reverse = 0;
-        System.out.println();
+        int reverse = 0;
+        System.out.println(reverse);
     }
 
     private static int reverse(int n){
