@@ -70,17 +70,18 @@ public class Student {
 
         Consumer<Student> printConsumer = x-> System.out.println(x.getName());
 
-
         Comparator<Student> sortFun = (x,y)->{
-            if(x.getMarks()<y.getMarks()){
-
-            }
-            return -1;
+//            if(x.getMarks()<y.getMarks()){
+//
+//            }
+//            return -1;
+            return x.name.compareTo(y.name);
         };
 
         stu.stream().map(gradeMapFun)
                 .filter(gradePredicate)
                 .sorted(sortFun)
                 .forEach(printConsumer);
+
     }
 }
